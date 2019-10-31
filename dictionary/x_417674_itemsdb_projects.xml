@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Projects" max_length="40" name="x_417674_itemsdb_projects" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Client" max_length="40" name="client" type="string"/>
+        <element label="Due Date" max_length="40" name="due_date" type="due_date"/>
+        <element label="ID" max_length="40" name="id" type="string"/>
+        <element display="true" label="Short Description" max_length="40" name="short_description" type="string"/>
+    </element>
+</database>

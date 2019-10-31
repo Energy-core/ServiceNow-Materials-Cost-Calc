@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>Projects</name>
+        <order/>
+        <roles>x_417674_itemsdb.purchase</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-31 00:08:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ed411886db700010237f9b81ca961983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Projects</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ItemsDB" source="x_417674_itemsdb">fac1c082db300010237f9b81ca9619a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ItemsDB">fac1c082db300010237f9b81ca9619a8</sys_scope>
+        <sys_update_name>sys_ui_application_ed411886db700010237f9b81ca961983</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-31 00:08:52</sys_updated_on>
+    </sys_ui_application>
+</record_update>

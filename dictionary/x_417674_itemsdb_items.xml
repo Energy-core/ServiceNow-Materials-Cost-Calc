@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Items" max_length="40" name="x_417674_itemsdb_items" type="collection">
+        <element label="Available Qty" max_length="40" name="available_qty" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Delivery Time" max_length="40" name="delivery_time" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Get Values" max_length="40" name="get_values" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Item ID" max_length="40" name="item_id" type="string"/>
+        <element label="Min. Purchase Qty" max_length="40" name="min_purchase_qty" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Price" max_length="40" name="price" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="140" name="short_description" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
