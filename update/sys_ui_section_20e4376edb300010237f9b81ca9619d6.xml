@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Requirement Info" section_id="20e4376edb300010237f9b81ca9619d6" sys_domain="global" table="x_417674_itemsdb_requirements" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_item_needed</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-02 06:00:23</sys_created_on>
+            <sys_id>c2e4f76edb300010237f9b81ca961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Requirement Info" display_value="Requirement Info" name="x_417674_itemsdb_requirements" sys_domain="global" view="Default view">20e4376edb300010237f9b81ca9619d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-02 06:00:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_quantity_needed</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-02 06:00:23</sys_created_on>
+            <sys_id>46e4f76edb300010237f9b81ca961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Requirement Info" display_value="Requirement Info" name="x_417674_itemsdb_requirements" sys_domain="global" view="Default view">20e4376edb300010237f9b81ca9619d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-02 06:00:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-02 06:00:23</sys_created_on>
+            <sys_id>c6e4f76edb300010237f9b81ca961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Requirement Info" display_value="Requirement Info" name="x_417674_itemsdb_requirements" sys_domain="global" view="Default view">20e4376edb300010237f9b81ca9619d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-02 06:00:23</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_when_needed</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-02 06:00:23</sys_created_on>
+            <sys_id>4ae4f76edb300010237f9b81ca961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Requirement Info" display_value="Requirement Info" name="x_417674_itemsdb_requirements" sys_domain="global" view="Default view">20e4376edb300010237f9b81ca9619d6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-02 06:00:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Requirement Info</caption>
+            <header>false</header>
+            <name>x_417674_itemsdb_requirements</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-02 06:00:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20e4376edb300010237f9b81ca9619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Requirement Info</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ItemsDB" source="x_417674_itemsdb">fac1c082db300010237f9b81ca9619a8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ItemsDB">fac1c082db300010237f9b81ca9619a8</sys_scope>
+            <sys_update_name>sys_ui_section_20e4376edb300010237f9b81ca9619d6</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-02 06:00:17</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

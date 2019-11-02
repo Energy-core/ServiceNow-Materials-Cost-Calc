@@ -2,31 +2,73 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
-        <api_name>x_417674_itemsdb.ItemsdbBar</api_name>
+        <api_name>x_417674_itemsdb.Bar</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
-        <description>UNDER CONSTRUCTION Utilities Script Include for all methods related to the Bar class - create from code, </description>
-        <name>ItemsdbBar</name>
-        <script><![CDATA[var ItemsdbBar = Class.create();
-ItemsdbBar.prototype = {
-    initialize: function() {
+        <description>UNDER CONSTRUCTION Utilities Script Include for all methods related to the Bar class - create from item code,  return package cost, etc. </description>
+        <name>Bar</name>
+        <script><![CDATA[var Bar = Class.create();
+Bar.prototype = {
+    initialize: function(diam, length, pkgSize, shape) {
+		this.diameter = diam; // Diameter in 1/8ths of an inch
+		this.length = length; // Length in meters
+		this.packageSize = pkgSize; // Minimum purchase qty
+		this.shape = shape; // 
+		this.unitCost = 0;
     },
+	
+	setCost: function(price) {
+		if(typeof price == 'number' && price > 0){
+			this.unitCost = Math.round(price*100)/100;
+		} else {
+			alert('Error: please input a positive number.');
+		}
+		return this.unitCost;
+	},
+	
+	packageCost: function() {
+		return this.unitCost * this.packageSize;
+	},
+	
+	type: 'Bar'
+};
 
-	
-	
-    type: 'ItemsdbBar'
-};]]></script>
+Bar.getBar = function(code, cost) {
+	// TO DO: add code syntax validation
+	// split the code into its parameters
+	var codeArr = code.split('-');
+	// Parse shape code: A = 'angled', S = 'straight'
+	var shape = '';
+	switch(codeArr[3]) {
+		case 'A': 
+			shape = 'angled';
+			break;
+		case 'S':
+			shape = 'straight';
+			break;
+		default:
+			shape = undefined;
+			gs.error('Warning: Invalid shape code');
+	}
+	// instantiate Bar
+	var newBar = new Bar (Number(codeArr[0]), Number(codeArr[1]), Number(codeArr[2]), shape);
+	newBar.name = code.split('-').join('');
+	// set bar cost
+	newBar.unitCost = cost;
+	return newBar;
+};
+]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-31 04:33:08</sys_created_on>
         <sys_id>eb4b450adb340010237f9b81ca961954</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>ItemsdbBar</sys_name>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Bar</sys_name>
         <sys_package display_value="ItemsDB" source="x_417674_itemsdb">fac1c082db300010237f9b81ca9619a8</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="ItemsDB">fac1c082db300010237f9b81ca9619a8</sys_scope>
         <sys_update_name>sys_script_include_eb4b450adb340010237f9b81ca961954</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-31 04:33:08</sys_updated_on>
+        <sys_updated_on>2019-11-01 05:19:40</sys_updated_on>
     </sys_script_include>
 </record_update>

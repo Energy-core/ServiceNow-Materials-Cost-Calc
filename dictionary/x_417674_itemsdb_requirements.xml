@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Requirements" max_length="40" name="x_417674_itemsdb_requirements" type="collection">
+        <element attributes="omit_sys_original=true" label="Item Cost" max_length="20" name="u_item_cost" read_only="true" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="choice 1" label="Item Needed" mandatory="true" max_length="40" name="u_item_needed" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Choice 1" label="Project" mandatory="true" max_length="40" name="u_project" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element default="0" label="Quantity Needed" mandatory="true" max_length="40" name="u_quantity_needed" type="integer"/>
+        <element attributes="omit_sys_original=true" label="Total Cost" max_length="20" name="u_total_cost" read_only="true" type="currency"/>
+        <element label="When Needed" mandatory="true" max_length="40" name="u_when_needed" type="due_date"/>
+    </element>
+</database>

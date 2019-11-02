@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Purchase Info" section_id="1f07f722db700010237f9b81ca9619ab" sys_domain="global" table="x_417674_itemsdb_items" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>price</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-02 06:09:46</sys_created_on>
+            <sys_id>2707f722db700010237f9b81ca9619fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Purchase Info" display_value="Purchase Info" name="x_417674_itemsdb_items" sys_domain="global" view="Default view">1f07f722db700010237f9b81ca9619ab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-02 06:09:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_delivery_time</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-02 06:09:46</sys_created_on>
+            <sys_id>a707f722db700010237f9b81ca9619fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Purchase Info" display_value="Purchase Info" name="x_417674_itemsdb_items" sys_domain="global" view="Default view">1f07f722db700010237f9b81ca9619ab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-02 06:09:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-02 06:09:46</sys_created_on>
+            <sys_id>2b07f722db700010237f9b81ca9619fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Purchase Info" display_value="Purchase Info" name="x_417674_itemsdb_items" sys_domain="global" view="Default view">1f07f722db700010237f9b81ca9619ab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-02 06:09:46</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>min_purchase_qty</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-02 06:09:46</sys_created_on>
+            <sys_id>ab07f722db700010237f9b81ca9619fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Purchase Info" display_value="Purchase Info" name="x_417674_itemsdb_items" sys_domain="global" view="Default view">1f07f722db700010237f9b81ca9619ab</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-02 06:09:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Purchase Info</caption>
+            <header>false</header>
+            <name>x_417674_itemsdb_items</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-11-02 06:09:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1f07f722db700010237f9b81ca9619ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Purchase Info</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ItemsDB" source="x_417674_itemsdb">fac1c082db300010237f9b81ca9619a8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ItemsDB">fac1c082db300010237f9b81ca9619a8</sys_scope>
+            <sys_update_name>sys_ui_section_1f07f722db700010237f9b81ca9619ab</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-11-02 06:09:45</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
